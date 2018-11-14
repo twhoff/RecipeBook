@@ -1,0 +1,17 @@
+{
+    "SIGNIN_PERSONAL_LOG_IN_LABEL": {
+        "desc": "Personalised log in title",
+        "en_EN": "Welcome, {0}! Please log in",
+        "fr_FR": "Bienvenue, {0}! Veuillez vous connecter"
+    },
+    "SIGNIN_REMEMBER_ME_LABEL": {
+        "desc": "Remember me label",
+        "en_EN": "Remember me",
+        "fr_FR": "Se souvenir de moi"
+    },
+    "SIGNIN_DONT_HAVE_ACCOUNT_LABEL": {
+        "desc": "Don't have an account link label",
+        "en_EN": "Don't have an account yet?",
+        "fr_FR": "Ne pas encore de compte?"
+    }
+}

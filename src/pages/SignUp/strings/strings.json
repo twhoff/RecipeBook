@@ -1,0 +1,84 @@
+{
+    "SIGNUP_SIGN_UP_LABEL": {
+        "desc": "Signup label",
+        "en_EN": "Sign up now",
+        "fr_FR": "Inscrivez-vous maintenant"
+    },
+    "SIGNUP_GENDER_LABEL": {
+        "desc": "Gender select box label",
+        "en_EN": "Gender",
+        "fr_FR": "Sexe"
+    },
+    "SIGNUP_GENDER_OPTION_SELECT": {
+        "desc": "Default option: select",
+        "en_EN": "Select",
+        "fr_FR": "Sélectionner"
+    },
+    "SIGNUP_GENDER_OPTION_MR": {
+        "desc": "Option: Mr",
+        "en_EN": "Mr.",
+        "fr_FR": "M."
+    },
+    "SIGNUP_GENDER_OPTION_MRS_MISS_MS": {
+        "desc": "Option: Mrs / Miss / Ms",
+        "en_EN": "Mrs./Miss/Ms.",
+        "fr_FR": "Mme./Mlle."
+    },
+    "SIGNUP_FIRSTNAME_LABEL": {
+        "desc": "First name label",
+        "en_EN": "First name",
+        "fr_FR": "Prénom"
+    },
+    "SIGNUP_FIRSTNAME_ERROR": {
+        "desc": "Error message when less than specified number of characters",
+        "param1": "Number of characters",
+        "en_EN": "First name must be at least {0} characters.",
+        "fr_FR": "Prénom doit contenir au moins {0} caractères."
+    },
+    "SIGNUP_LASTNAME_LABEL": {
+        "desc": "Last name label",
+        "en_EN": "Last name",
+        "fr_FR": "Nom"
+    },
+    "SIGNUP_LASTNAME_ERROR": {
+        "desc": "Error message when less than specified number of characters",
+        "param1": "Number of characters",
+        "en_EN": "Last name must be at least {0} characters.",
+        "fr_FR": "Nom doit contenir au moins {0} caractères."
+    },
+    "SIGNUP_BIRTHDAY_LABEL": {
+        "desc": "Birthday label",
+        "en_EN": "Birthday",
+        "fr_FR": "Anniversaire"
+    },
+    "SIGNUP_BIRTHDAY_DAY": {
+        "desc": "Birthday day",
+        "en_EN": "Day",
+        "fr_FR": "Jour"
+    },
+    "SIGNUP_BIRTHDAY_MONTH": {
+        "desc": "Birthday month",
+        "en_EN": "Month",
+        "fr_FR": "Mois"
+    },
+    "SIGNUP_BIRTHDAY_YEAR": {
+        "desc": "Birthday year",
+        "en_EN": "Year",
+        "fr_FR": "Année"
+    },
+    "SIGNUP_BIRTHDAY_YEAR_ERROR": {
+        "desc": "Birthday year error message",
+        "en_EN": "Please use format YYYY",
+        "fr_FR": "Veuillez utiliser le format YYYY"
+    },
+    "SIGNUP_NEWSLETTER_LABEL": {
+        "desc": "Newsletter subscription label",
+        "en_EN": "I would like to get the RecipeBook newsletter",
+        "fr_FR": "Je souhaite recevoir le bulletin RecipeBook"
+    },
+    "SIGNUP_ALREADY_HAVE_ACCOUNT_LABEL": {
+        "desc": "Already have an account link label",
+        "en_EN": "Already have an account?",
+        "fr_FR": "Vous avez déjà un compte?"
+    }
+}

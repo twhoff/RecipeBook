@@ -1,0 +1,42 @@
+@import "fig";
+
+.#{$namespace} .SignUp {
+
+    fieldset {
+        border: none;
+        padding: 0;
+    }
+
+    label:not(.inline) {
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    .heroLabel {
+        margin: 60px 0 36px;
+
+        line-height: 1.4;
+
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .signUpFormCont {
+        @include media(m) {
+            width: 525px;
+        }
+        &:last-child {
+            margin-top: 15px;
+        }
+    }
+
+    .signUpFormGrid {
+        @include gutters(20px, 15px, all)
+    }
+
+    .newsletterCheckbox {
+        margin-right: 10px;
+    }
+
+
+}

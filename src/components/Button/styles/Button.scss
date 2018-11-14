@@ -1,0 +1,70 @@
+@import "fig";
+
+.#{$namespace} .Button {
+
+    // Default styles --
+    
+    // All buttons grow to consume the width of their container by default
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+
+    font-family: Montserrat, Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    // This is the correct line-height and padding to properly vertically centre the text
+    line-height: calc(11 / 14); 
+    padding: 15px 10px 14px;
+    @include media(l) {
+        padding: 15px 30px 14px;
+    }
+
+    &[disabled] {
+        opacity: 0.5;
+    }
+
+    // Button themes --
+    &.primaryButton {
+        box-shadow: 0px 0px 0px 1px $color__global__theme__primary inset;
+        color: $color__global__theme__primary;
+
+        background-color: transparent;
+
+        &:hover:enabled {
+            cursor: pointer;
+            box-shadow: none;
+            color: $color__global__text__high__contrast;
+            background-color: $color__global__theme__primary--hover;
+        }
+    }
+
+    &.primaryButtonInverted {
+        background-color: $color__global__theme__primary;
+        color: $color__global__text__high__contrast;
+
+        &:hover:enabled {
+            background-color: $color__global__theme__primary--hover;
+        }
+        &:focus:enabled {
+            outline: 0;
+        }
+        &:active:enabled {
+            box-shadow: inset 0 3px 5px rgba($color__global__theme__shadow__primary, 0.125);
+            outline: 0;
+        }
+    }
+
+    &.secondaryButton {
+        color: $color__global__theme__primary;
+
+        background-color: transparent;
+
+        &:hover:enabled {
+            cursor: pointer;
+            color: $color__global__theme__primary--hover;
+        }
+    }
+
+
+}

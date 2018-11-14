@@ -1,0 +1,52 @@
+{
+    "MENU_ITEM_OUR_PLANS": {
+        "desc": "Navigation item",
+        "en_EN": "Our Plans",
+        "fr_FR": "Commander"
+    },
+    "MENU_ITEM_HOW_IT_WORKS": {
+        "desc": "Navigation item",
+        "en_EN": "How It Works",
+        "fr_FR": "Comment ça marche?"
+    },
+    "MENU_ITEM_OUR_MENUS": {
+        "desc": "Navigation item",
+        "en_EN": "Our Menus",
+        "fr_FR": "Comment ça marche?"
+    },
+    "MENU_ITEM_WINES": {
+        "desc": "Navigation item",
+        "en_EN": "Wines",
+        "fr_FR": "Vins"
+    },
+    "MENU_ITEM_GIFTS": {
+        "desc": "Navigation item",
+        "en_EN": "Gifts",
+        "fr_FR": "Cadeaux"
+    },
+    "MENU_ITEM_OUR_PHILOSOPHY": {
+        "desc": "Navigation item",
+        "en_EN": "Our Philosophy",
+        "fr_FR": "Notre philosophie"
+    },
+    "MENU_ITEM_HELP": {
+        "desc": "Navigation item",
+        "en_EN": "Help",
+        "fr_FR": "Aide"
+    },
+    "BUTTON_LABEL_GET_STARTED": {
+        "desc": "Get started with ordering button label",
+        "en_EN": "Get Started",
+        "fr_FR": "Commencer"
+    },
+    "BUTTON_LABEL_LOG_IN": {
+        "desc": "Log in button label",
+        "en_EN": "Log In",
+        "fr_FR": "Connexion"
+    },
+    "BUTTON_LABEL_LOG_OUT": {
+        "desc": "Log out button label",
+        "en_EN": "Log Out",
+        "fr_FR": "Déconnexion"
+    }
+}

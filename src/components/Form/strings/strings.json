@@ -1,0 +1,39 @@
+{
+    "FORM_ERROR_INVALID_EMAIL": {
+        "desc": "Invalid email error message.",
+        "en_EN": "Please enter a valid email address.",
+        "fr_FR": "Adresse électronique non valide."
+    },
+    "FORM_ERROR_REQUIRED_FIELD": {
+        "desc": "Empty field error message.",
+        "en_EN": "This is required.",
+        "fr_FR": "Ce champ est obligatoire."
+    },
+    "FORM_ERROR_NUMERIC": {
+        "desc": "Numeric value required error message.",
+        "en_EN": "Please enter a number.",
+        "fr_FR": "S'il vous plaît, choisissez un nombre."
+    },
+    "FORM_ERROR_DATE": {
+        "desc": "Date format is incorrect message.",
+        "en_EN": "The date you entered is not valid.",
+        "fr_FR": "La date que vous avez entrée n'est pas valide."
+    },
+    "FORM_ERROR_PASSWORD_STRENGTH": {
+        "desc": "Password is too weak message.",
+        "param1": "Minimum number of characters.",
+        "param2": "Minimum number of uppercase, number or special characters.",
+        "en_EN": "Password must be at least {0} characters and must contain at least {1} uppercase, number or special character.",
+        "fr_FR": "Informations de connexion incorrectes fournies."
+    },
+    "FORM_ERROR_INCORRECT_LOGIN": {
+        "desc": "Incorrect login or password was provided.",
+        "en_EN": "Incorrect login details provided.",
+        "fr_FR": "Informations de connexion incorrectes fournies."
+    },
+    "FORM_ERROR_USER_EXISTS": {
+        "desc": "User exists error message.",
+        "en_EN": "Username already exists.",
+        "fr_FR": "Nom d'utilisateur existe déjà."
+    }
+}

@@ -1,0 +1,74 @@
+@import "fig";
+
+.#{$namespace} .Recipes {
+
+    margin-top: 60px !important;
+
+    .loadingRecipes {
+        margin: 60px 0;
+    }
+
+    .recipeCard {
+        padding: 0;
+        a {
+            text-decoration: none;
+            &:hover {
+                color: $color__global__text__link__primary;
+            }
+        }
+
+        .imageContainer {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 56.25%
+        }
+
+        .favouriteIcon {
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 36px;
+            height: 36px;
+            z-index: $z-index-content;
+            shape-rendering: geometricprecision;
+
+            &:hover .heart, &.selected .heart {
+                fill: $color__global__icon__fill;
+            }
+            &:hover:not(.selected) .heart {
+                stroke-width: 0
+            }
+        }
+
+        .recipeImage {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+        }
+
+        .recipeCardGrid {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 8px;
+            min-height: 150px;
+        }
+
+        .heading {
+            margin-bottom: 5px;
+        }
+
+        .subHeading {
+            flex-grow: 1;
+        }
+        .footer {
+            margin-top: 15px;
+        }
+    }
+
+    .recipeGrid {
+        @include gutters(20px, 30px)
+    }
+
+}

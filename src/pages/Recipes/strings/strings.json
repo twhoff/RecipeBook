@@ -1,0 +1,32 @@
+{
+    "RECIPES_HEADLINE": {
+        "desc": "Recipes page healine",
+        "en_EN": "Delicious and Quick Recipes",
+        "fr_FR": "Toutes nos recettes"
+    },
+    "RECIPES_SUB_HEADLINE": {
+        "desc": "Recipes page sub-headline",
+        "en_EN": "2500+ easy-to-cook meals specially created by our chefs.",
+        "fr_FR": ""
+    },
+    "RECIPES_SEARCH_PLACEHOLDER_LABEL": {
+        "desc": "Recipes page search box placeholder label",
+        "en_EN": "Search all recipes",
+        "fr_FR": "Chercher parmi toutes les recettes"
+    },
+    "RECIPES_KCAL_LABEL": {
+        "desc": "Kilo-calories label",
+        "en_EN": "kcal",
+        "fr_FR": "kcal"
+    },
+    "RECIPES_MINUTES_LABEL": {
+        "desc": "Minutes label",
+        "en_EN": "minutes",
+        "fr_FR": "minutes"
+    },
+    "RECIPES_LOADING_LABEL": {
+        "desc": "Message to indicate recipes are loading",
+        "en_EN": "Loading...",
+        "fr_FR": "Chargement..."
+    }
+}

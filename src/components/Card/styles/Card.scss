@@ -1,0 +1,13 @@
+@import "fig";
+
+.#{$namespace} .Card {
+
+    // Default styles --
+
+    // Card themes --
+    &.primaryCard {
+        background-color: $color__global__card__bg__primary;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+        padding: 15px;
+    }
+}

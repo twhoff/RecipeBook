@@ -1,0 +1,40 @@
+@import "fig";
+
+.#{$namespace} .SignIn {
+
+    fieldset {
+        border: none;
+    }
+
+    label:not(.inline) {
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    .heroLabel {
+        margin: 60px 0 36px;
+
+        line-height: 1.4;
+
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .signInFormCont {
+        @include media(m) {
+            width: 525px;
+        }
+        &:last-child {
+            margin-top: 15px;
+        }
+    }
+
+    .signInFormGrid {
+        @include gutters(0, 15px);
+    }
+
+    .rememberMeCheckbox {
+        margin-right: 10px;
+    }
+
+}

@@ -1,0 +1,27 @@
+{
+    "SIGN_HERO_LABEL": {
+        "desc": "Registration message appears above the registration form",
+        "en_EN": "Register with us today to receive regular updates from the RecipeBook fam. Inspiring recipe ideas, the newest food trends, and unique RecipeBook promotions are waiting for you.",
+        "fr_FR": "Inscrivez-vous dès aujourd'hui pour recevoir les mises à jour régulières de RecipeBook. Des idées de recettes inspirantes, les nouvelles tendances culinaires et des promotions RecipeBook uniques vous attendent."
+    },
+    "SIGN_EMAIL_LABEL": {
+        "desc": "Email label",
+        "en_EN": "Email",
+        "fr_FR": "E-mail"
+    },
+    "SIGN_PASSWORD_LABEL": {
+        "desc": "Password label",
+        "en_EN": "Password",
+        "fr_FR": "Mot de passe"
+    },
+    "SIGN_SIGN_UP_LABEL": {
+        "desc": "Sign up label",
+        "en_EN": "Sign up",
+        "fr_FR": "Inscription"
+    },
+    "SIGN_LOG_IN_LABEL": {
+        "desc": "Log in title",
+        "en_EN": "Log in",
+        "fr_FR": "Connexion"
+    }
+}

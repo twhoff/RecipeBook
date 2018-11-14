@@ -1,0 +1,8 @@
+server="localhost"
+database="recipebook"
+country="us"
+locale="en_EN"
+recipebookapikey="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MzUzMjYyMDMsImp0aSI6IjMwZjRmY2MyLTNmYzYtNDExNi04YmZhLTk2ZjA5NjkzNWFkMyIsImlhdCI6MTUzMjY5NjQ2MCwiaXNzIjoiaGVsbG9mcmVzaC1kZXYtdGVzdCJ9.XXzedHFlFOPuZ6-XBa-zw540Mv58iWNgoM6zA0kCT8M"
+recipebookapiurl="https://gw.recipebook.com/"
+numrecipestoload=1000
+httproot="./../dist"

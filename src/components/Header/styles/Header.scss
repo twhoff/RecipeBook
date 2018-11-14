@@ -1,0 +1,126 @@
+@import "fig";
+
+$header-height-desktop: 80px;
+$header-height-mobile: 60px;
+
+.#{$namespace} {
+    .Header {
+        position: relative;
+        height: $header-height-mobile;
+        @include media(m) {
+            height: $header-height-desktop;
+        }
+        background-color: $color__global__card__bg__primary;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        
+        svg {
+            display: block;
+        }
+
+        .headerGrid {
+            height: $header-height-mobile;
+            @include media(m) {
+                height: $header-height-desktop;
+            }
+            > * {
+                height: auto;
+            }
+            .colDesktopLogo {
+                align-self: flex-start;
+            }
+            .colDesktopNav {
+                flex: 1 0 auto;
+            }
+            .colMobileLogo, .colMobileSignIn {
+                display: flex;
+                @include media(m) {
+                    display: none;
+                }
+                justify-content: center;        // This keeps the mobile logo properly centred using flexbox
+                > a {
+                    display: inline-block;
+                }
+            }
+            .colMobileSignIn {
+                justify-content: flex-end;
+            }
+        }
+
+        .desktopLogo {
+            width: 100px;
+            margin-top: 15px;
+        }
+
+        .mobileNavButton {
+            width: 20px;
+            cursor: pointer;
+        }
+
+        .mobileLogo {
+            height: 32px;
+        }
+
+        .shoppingCartButton {
+            width: 24px;
+        }
+
+        .navGrid {
+            padding-left: 6px;
+
+            a {
+                display: inline-block;
+                padding: 0 10px;
+                text-decoration: none;
+                @include media(xl) {
+                    padding: 0 15px;
+                }
+                @include media(m) {
+                    line-height: $header-height-desktop;
+                }
+                &:hover {
+                    box-shadow: inset 0 -4px 0 $color__global__theme__primary;
+                    color: $color__global__theme__primary;
+                }
+            }
+        }
+
+        .desktopToolsGrid {
+            @include gutters(10px, 0);
+            @include media(l) {
+                @include gutters(20px, 0);
+            }
+
+            .userIcon {
+                width: 24px
+            }
+
+            .userMenuGrid {
+                @include gutters(10px, 0);
+            }
+
+            a {
+                color: $color__global__theme__primary;
+                text-decoration: underline;
+                font-size: 12px;
+                &:hover {
+                    color: $color__global__theme__primary--hover;
+                }
+            }
+        }
+
+        .colDesktopLocale {
+            padding: 15px 10px 14px;
+            @include media(l) {
+                padding: 15px 30px 14px;
+            }
+            a {
+                display: inline-block;
+                width: 20px;
+                color: $color__global__text__secondary;
+                &:hover, &.selected {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

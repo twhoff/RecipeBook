@@ -1,0 +1,47 @@
+@import "fig";
+
+.#{$namespace} .TextInput {
+
+    // Text inputs should always fill their container
+    width: 100%;
+
+    &.primaryTextInput {
+        padding: 6px 12px;
+
+        font-size: 14px;
+        line-height: calc(18 / 14);
+
+        border: 1px solid $color__global__form__input__border__primary;
+        border-radius: 3px;
+
+        background-color: $color__global__form__input__bg__primary;
+        box-shadow: inset 0 1px 1px rgba($black, .075);
+
+        transition: border-color ease-in-out .2s, box-shadow ease-in-out .2s;
+
+        color: $color__global__text__tertiary;
+
+        &:focus {
+            border-color: $color__global__form__input__border__primary--active;
+            box-shadow: inset 0 1px 1px rgba($black, .075), 0 0 8px rgba($color__global__form__input__border__primary--active, .6);
+            outline: 0;
+
+            // For passwords
+            &.strong {
+                border-color: $color__global__text__positive;
+                box-shadow: inset 0 1px 1px rgba($black, .075), 0 0 8px rgba($color__global__text__positive, .6);
+            }
+            &.medium {
+                border-color: $color__global__text__warning;
+                box-shadow: inset 0 1px 1px rgba($black, .075), 0 0 8px rgba($color__global__text__warning, .6);
+            }
+            &.weak, &.hasError {
+                border-color: $color__global__text__negative;
+                box-shadow: inset 0 1px 1px rgba($black, .075), 0 0 8px rgba($color__global__text__negative, .6);
+            }
+        }
+        &.weak, &.hasError {
+            border-color: $color__global__text__negative;
+        }
+    }
+}

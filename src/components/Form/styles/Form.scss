@@ -1,0 +1,9 @@
+@import "fig";
+
+.#{$namespace} .Form {
+    .error {
+        display: block;
+        margin-top: 6px;
+        color: $color__global__text__negative;
+    }
+}

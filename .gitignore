@@ -1,0 +1,29 @@
+# You can use this as a starting point for your custom .gitignore
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules
+
+# npm cache directory
+.npm
+
+# We also recommend ignoring package-lock.json to focus the code review on the relevant files
+package-lock.json
+yarn.lock
+
+# don't forget to ignore your compiled app directory
+# lib
+# dist
+.vscode/launch.json
+server/debug
+server/server
