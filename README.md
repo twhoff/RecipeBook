@@ -2,6 +2,8 @@
 
 *This app requires mongodb, if not installed, can be installed from [link](https://docs.mongodb.com/manual/installation/ "here")
 
+Use the executables in the `/dist` folder to see the working application.
+
 1) Start mongodb (should be accessbile via "localhost")
     * If you need to change the mongo address see dist/config/config.toml
 2) Start the app with "sudo": `sudo ./server`
@@ -9,4 +11,4 @@
     * The server is compiled to run on OS X - if you are using another OS, please recompile (I hope the paths won't cause an issue, haven't tested)
 3) Browse to `https://localhost:8080`
 
-Thanks :)
+This is just one way to run the code. It can be set up in a docker container or using kitematic.
